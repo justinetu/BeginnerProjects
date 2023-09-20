@@ -1,0 +1,19 @@
+Type, compile, and run the following program implementing linked list using pointersutilizing Queue data structure. Queue is First-In First-Out (FIFO)1. 
+A parking garage has a one-way entrance and one-way exit. It has only one lane to parkcars. The capacity of the parking is for 10 cars. 
+Each car’s record is as follow:struct Car{string Owner_Name;string Licence_Plate;string Car_Model;int Ticket_Number;int Check-in;int Check_Out;};
+Your program should have the following functions:
+1. Read data including Check In time.
+2. Push one car at a time to rear
+3. To pop, read Check Out time first. 
+The charge for the parking is as follow:
+• 0 – 30 Minutes $3.00
+• 31 Minutes – 59 Minutes $5.00
+• 1 hour – 5 hours $10.00
+• 6 hours – 12 hours $15.00
+• More than 12 hours $20.0
+04. Calculate the charge for each car. Add 15% tip to the charge.5. If the parking lot is not full, then your program should allow more cars to beparked.
+6. Calculate the total money made by 10 cars in one day.
+7. Repeat this for seven days.
+8. There is 55 % overhead.
+9. Calculate Monthly and yearly Net income.
+10. Predict the annual income generated from parking garage.
