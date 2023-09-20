@@ -1,0 +1,29 @@
+Write a C++ menu driven program to simulate a vending machine using functions. The vendingmachine has the following items:
+Item name •10m price. •CokeDoritosSnickers -'11/WChex Mix $0.60 —7
+-Pepsi $0.90 
+—Maximum capacity for each item is 30.
+If the number of items for each of the above is less than 5, then refill it.The machine accepts quarters, dimes, and nickels, and $1 or $5 bills. There are three different containers for each coin. 
+There should be at least 20 nickels, 20 dimes, and 20 quarters in each container. If each container has More than 100 coins, then remove coins fromcontainer and leave only 20 coins. 
+If amount of $1 bills exceeds $100, then remove the $1 bills and leave twenty $1 bills in the container. If amount of $5 bills exceed $300, then remove 
+.5:5bills and leave twenty $5 bills in the container.The cost of the items is 35% of the selling price.Labor cost is 25% of the selling price.Overhead is 5% of the selling price.
+Your program must run for six hours per day,.Your program must have at least the following functions:
+1. Main function
+2. Menu function
+3: Check if the machine is ON or Off
+4. Turn the machine ON if it is OFF
+5. Refill vending machine
+6. Refill coins containers
+7. Remove coins from any one of the container if it exceeds 100 coins
+8. Select item from vending machine
+9. Accept coins
+10. Check for coin validity. If it is a foreign coin, then reject it.
+11. Check the price, If the amount received is less than the item's price, then ask for moremoney. If the amount received is more than the item's price, then return change.
+12. Return change
+13. Calculate the sales for each item per hour
+14. Calculate the total sales for each item per day
+15. Calculate the total sales for all items
+16. Compute total cost of all items
+17. Compute labor cost
+18. Compute overhead
+19. Compute profit
+20, Display
